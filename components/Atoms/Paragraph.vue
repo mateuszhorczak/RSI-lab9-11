@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<p class="text-black">
-  <slot />
-</p>
+  <p class="text-black">
+    <slot />
+  </p>
 </template>
