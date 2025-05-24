@@ -3,3 +3,9 @@ export interface Message {
   name: string
   text: string
 }
+
+export interface Product {
+  id: number
+  name: string
+  price: number
+}

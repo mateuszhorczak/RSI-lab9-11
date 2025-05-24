@@ -1,7 +1,11 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
-  <NuxtPage />
+  <PagesContainer>
+    <AtomsNavigation />
+    <LayoutsMainWrapper>
+      <NuxtPage />
+    </LayoutsMainWrapper>
+  </PagesContainer>
 </template>

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 0,
+    "name": "Item 0",
+    "price": 9.99
+  },
+  {
+    "id": 1,
+    "name": "Item 1",
+    "price": 26.99
+  },
+  {
+    "id": 2,
+    "name": "Item 2",
+    "price": 29.99
+  },
+  {
+    "id": 3,
+    "name": "przedmiot",
+    "price": 100.99
+  },
+  {
+    "id": 4,
+    "name": "supi",
+    "price": 18.99
+  },
+  {
+    "id": 5,
+    "name": "test",
+    "price": 99.99
+  },
+  {
+    "id": 6,
+    "name": "test2",
+    "price": 22
+  },
+  {
+    "id": 7,
+    "name": "polojj",
+    "price": 99
+  },
+  {
+    "id": 8,
+    "name": "poliniaczek",
+    "price": 21378
+  },
+  {
+    "id": 17,
+    "name": "sgfiuhfjosdhiuf",
+    "price": 2222
+  },
+  {
+    "id": 100,
+    "name": "setny produkt",
+    "price": 100
+  }
+]

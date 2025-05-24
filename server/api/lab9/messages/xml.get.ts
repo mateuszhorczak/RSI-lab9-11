@@ -1,6 +1,6 @@
+import { readFileSync } from 'fs'
 import { create } from 'xmlbuilder2'
 import type { Message } from '~/types'
-import { readFileSync } from "fs";
 
 function arrayToXML(messages: Message[]) {
   const root = create({ version: '1.0', encoding: 'UTF-8' })
@@ -17,7 +17,7 @@ function arrayToXML(messages: Message[]) {
 }
 
 export default defineEventHandler(async (event) => {
-  const messages = JSON.parse(readFileSync('database/messages.json', 'utf8'));
+  const messages = JSON.parse(readFileSync('database/messages.json', 'utf8'))
 
   const xml = arrayToXML(messages)
 

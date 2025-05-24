@@ -1,5 +1,5 @@
-import { readFileSync, writeFileSync } from "fs";
-import type { Message } from "~/types";
+import { readFileSync, writeFileSync } from 'fs'
+import type { Message } from '~/types'
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event)
@@ -13,8 +13,8 @@ export default defineEventHandler(async (event) => {
     return
   }
 
-  const messages: Message[] = JSON.parse(readFileSync('database/messages.json', 'utf8'));
-  messages.push(newMessage);
-  const jsonData = JSON.stringify(messages, null, 2);
+  const messages: Message[] = JSON.parse(readFileSync('database/messages.json', 'utf8'))
+  messages.push(newMessage)
+  const jsonData = JSON.stringify(messages, null, 2)
   writeFileSync('database/messages.json', jsonData, 'utf8')
 })
