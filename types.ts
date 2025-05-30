@@ -9,3 +9,10 @@ export interface Product {
   name: string
   price: number
 }
+
+export interface MessageWithComment {
+  id: number
+  name: string
+  text: string
+  comments: Message[]
+}

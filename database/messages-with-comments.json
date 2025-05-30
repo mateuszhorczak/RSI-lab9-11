@@ -1,0 +1,43 @@
+[
+  {
+    "id": 0,
+    "name": "Item 0",
+    "text": "zerowa wiadomosc",
+    "comments": [
+      {
+        "id": 0,
+        "name": "lorem ipsum",
+        "text": "ipsum lorem"
+      },
+      {
+        "id": 1,
+        "name": "lorem ipsum2",
+        "text": "opis drugiego requesta"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Item 1",
+    "text": "pierwsza wiadomosc",
+    "comments": []
+  },
+  {
+    "id": 2,
+    "name": "Item 2",
+    "text": "EDYTOWANE",
+    "comments": []
+  },
+  {
+    "id": 3,
+    "name": "kolejna wiadomosc",
+    "text": "ipsum loremm",
+    "comments": []
+  },
+  {
+    "id": 4,
+    "name": "Jeszcze kolejna wiadomosc",
+    "text": "ipsum loaremm",
+    "comments": []
+  }
+]
